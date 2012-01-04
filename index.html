@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Ninja Slap App." />
+	<meta name="keywords" content="ninja, slap, slapping" />
+	<meta name="robots" content="index, follow" />
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="target-densitydpi=device-dpi" />
+	<meta http-equiv="cleartype" content="on"/>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.css" />
+	<link rel="stylesheet" href="themes/NSLapp_solids.min.css"/>
+	<link href="css/styles.css" rel="stylesheet" type="text/css" />
+	<script src="js/libs/modernizr.custom.min.js"></script>
+	<title>NinjaSLAP!</title>
+	
+    </head>
+
+    <body>
+<!--  Home Page -->
+	<div data-role="page" id="home" data-theme="f">
+	    <div data-role="header" data-theme="a">
+		<H1>NinjaSLAP!</H1>
+    <!--	<img src="" />	-->
+	    </div>
+	    
+	    <div data-role="content" id="sendButton">
+		<p><a href="#sendChoose" data-role="button" data-theme="c" >Send a NinjaSLAP!</a></p>
+	    </div>
+	    
+	    <div data-role="content" id="moreButton">
+		<p><a href="#morePage" data-role="button" data-theme="b" >More From NinjaSLAP!</a></p>
+	    </div>
+	    <div data-role="footer" >
+		<h3>NinjaSLAP! the App.</h3>
+	    </div>
+    
+	</div>
+	    
+<!--  More Page -->
+	<div data-role="page" id="morePage" data-add-back-btn="true" data-theme="f">
+	    
+	    <div data-role="header" data-theme="a">
+		<H1>More NinjaSLAP!</H1>
+	    </div>
+	    
+	    <div data-role="content" data-theme="f">
+        	<img src="" />
+            </div>
+	    
+	    <ul data-role="listview" data-inset="true" data-count-theme="c">
+<!--        <li data-role="divider" data-inset="true" data-theme="d">More NinjaSLAP!</li>	-->
+		<li data-icon="home" data-theme="b"><a href="#viewRecent">View Recent NinjaSLAPs!</a></li>
+		<li data-icon="grid" data-theme="f"><a href="#viewScores">View Your NinjaSLAP! Scores</a></li>
+		<li data-icon="star" data-theme="b"><a href="#createOwn">Personalize Your NinjaSLAP!</a></li>
+		<li data-icon="plus" data-theme="f"><a href="#viewClan">NinjaSLAP! Clan</a></li>
+		<li data-icon="" data-theme="b"><a href="">NinjaSLAP! Website</a></li>
+	    </ul>
+	    
+	    <div data-role="footer" >
+		<h3>NinjaSLAP! the App.</h3>
+	    </div>
+	</div>
+	
+<!--  Send/Choose Page -->
+	<div data-role="page" id="sendChoose" data-add-back-btn="true" data-theme="f">
+	    <div data-role="header" data-theme="a">
+		<H1>NinjaSLAP!</H1>
+		<H2>Send</H2>
+	    </div>
+	
+	    <div data-role="content" data-theme="f">
+        	<img src="" />
+            </div>
+	    
+	    <div data-role="footer" >
+		<h3>NinjaSLAP! the App.</h3>
+	    </div>
+	</div>
+	
+<!--  Send/Method Page -->
+	<div data-role="page" id="sendMethod" data-add-back-btn="true" data-theme="a">
+	    <div data-role="header" data-theme="b">
+		<H1>NinjaSLAP!</H1>
+		<H2>Method</H2>
+		<img src="" />
+	    </div>
+	    
+	    <div data-role="footer" >
+		<h3>NinjaSLAP! the App.</h3>
+	    </div>
+	</div>
+    
+<!--  Send/Confirm Page -->
+	<div data-role="page" id="sendConfirm" data-add-back-btn="true" data-theme="a">
+	    <div data-role="header" data-theme="b">
+		<H1>NinjaSLAP!</H1>
+		<H2>Confirmation</H2>
+		<img src="" />
+	    </div>
+	    
+	    <div data-role="footer" >
+		<h3>NinjaSLAP! the App.</h3>
+	    </div>
+	</div>
+    
+<!--  View Recent Page -->
+	<div data-role="page" id="viewRecent" data-add-back-btn="true" data-theme="a">
+	    <div data-role="header" data-theme="b">
+		<H1>NinjaSLAP!</H1>
+		<H2>Recent</H2>
+		<img src="" />
+	    </div>
+	    
+	    <div data-role="footer" >
+		<h3>NinjaSLAP! the App.</h3>
+	    </div>
+	</div>
+    
+<!--  View Scores Page -->
+	<div data-role="page" id="viewScores" data-add-back-btn="true" data-theme="a">
+	    <div data-role="header" data-theme="b">
+		<H1>NinjaSLAP!</H1>
+		<H2>Scores</H2>
+		<img src="" />
+	    </div>
+	    
+	    <div data-role="footer" >
+		<h3>NinjaSLAP! the App.</h3>
+	    </div>
+	</div>
+    
+    
+<!--  Personalize Page -->
+	<div data-role="page" id="createOwn" data-add-back-btn="true" data-theme="a">
+	    <div data-role="header" data-theme="b">
+		<H1>NinjaSLAP!</H1>
+		<H2>Personalize</H2>
+		<img src="" />
+	    </div>
+	    
+	    <div data-role="footer" >
+		<h3>NinjaSLAP! the App.</h3>
+	    </div>
+	</div>
+    
+<!--  Clan Page -->
+	<div data-role="page" id="viewClan" data-add-back-btn="true" data-theme="a">
+	    <div data-role="header" data-theme="b">
+		<H1>NinjaSLAP!</H1>
+		<H2>Clan</H2>
+		<img src="" />
+	    </div>
+	    
+	    <div data-role="footer" >
+		<h3>NinjaSLAP! the App.</h3>
+	    </div>
+	</div>
+    
+    
+    
+<!-- JavaScript under here -->
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.js"></script>
+	<script type="text/javascript" src="js/libs/jquery.validate.min.js"></script>
+<!--    <script type="text/javascript" src="js/libs/additional-methods.min.js"></script>	-->
+	<script type="text/javascript" src="js/main.js" ></script>
+    </body>
+</html>
